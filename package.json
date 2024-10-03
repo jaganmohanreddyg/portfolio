@@ -1,5 +1,5 @@
 {
-  "name": "Jagan-portfolio",
+  "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href /Jagan/ && ngh --dir=dist/Jagan-portfolio "
+    "deploy": "ng build --prod --base-href /Jagan/ && ngh --dir=dist/portfolio "
   },
   "private": true,
   "dependencies": {
