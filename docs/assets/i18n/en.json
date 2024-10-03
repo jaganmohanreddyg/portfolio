@@ -1,0 +1,153 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "jaganResume.pdf",
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>2.5+ years of experience</span> developing web applications, bots, and innovative technological solutions. I am dedicated to writing and refactoring clean, reusable and scalable code in <span class='underline'>Java and Angular </span> while ensuring good coding practices and development standards.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "In my <span class='underline'>2.5+ years as a Java Full Stack developer</span>, I seek to train every day. I have worked writing unit tests, performing continuous integration, primarily as a <span class='underline'>Backend developer</span> with <span class='underline'>Java Spring Boot, Elastic Search, Kibana, MySQL, PostgreSQL.</span>Specialized in developing high-performance APIs and leading POC initiatives while optimizing deployment processes with Docker for seamless integration between development and operations.",
+        "While backend is my strong suit, I have solid knowledge of <span class='underline'>Angular</span>. I have worked on developing <span class='underline'>responsive</span>, <span class='underline'>dynamic frontends</span>, and <span class='underline'>integrating</span> them with backend services.",
+        "Some of the technologies that I have trained and worked on"
+    ],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "W3 Global",
+            "Title": "Java Full stack developer",
+            "Date": "Jan 2023 - Present",
+            "Description": [
+                "As a Java Full Stack Developer at W3 Global, I significantly contributed to the development of a comprehensive product designed to streamline the staffing process for recruiters.",
+                "Actively engaging in both backend and frontend development using Java Spring Boot and Angular Respectively.",
+                "Designed, Developed, and optimized RESTful Web APIs for high performance and scalability.",
+                "Lead research and development POC initiatives, including bounce back email management through AWS and Java SMTP integration",
+                "Created and customized Docker files tailored to specific application requirements, enhancing container efficiency and security.",
+                "Utilized Docker for seamless containerization, enhancing portability and scalability in development and deployment processes."
+            ]
+        },
+        
+        {
+            "Tab": "FIS",
+            "Title": "Jr Java Developer IT Trainee",
+            "Date": "June 2022 - December 2022",
+            "Description": [
+                "As a Backend Developer at FIS Global worked for WorldPay Payment Gateway in the financial services sector, I spearheaded API development using Spring Boot, contributing to robust and scalable solutions by following Microservices Architecture",
+               "Contributed to the development and integration of React frontend for banking solutions.",
+               "Created CI/CD pipelines on Jenkins and deployed on AWS."
+            ]
+        },
+        {
+            "Tab": "Freelancer",
+            "Title": "Independent",
+            "Date": "Jan 2022 - May 2022",
+            "Description": [
+                "Developed automation bots using the Python as a freelancer to optimize client's daily routine tasks.",
+                "Designed and implemented a Personalized Wisher Bot for automating special occasion messages for clients.",
+                "Contributed to code refactoring and performance improvements in the ClointFusion package as part of freelance projects."
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "Projects that I was a part of",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Employee Timesheets Management",
+            "Description": "For any Company After onboarding a candidate, effective timesheet management is crucial for seamless payroll processing. We have designed and implemented two end-to-end microservices to streamline this process using Java Spring boot and Angular.",
+            "imgs": [
+                "assets/images/timesheets/timesheet1.jpeg",
+                "assets/images/timesheets/timesheet2.jpeg"
+            ],
+            "Technologies": [
+                "Java",
+                "Spring Boot",
+                "Microservices",
+                "Angular",
+                "Elasticsearch"
+            ]
+        },
+        {
+            "Title": "SMS and Email Unsubscription Management System",
+            "Description": "To tackle legal compliance issues, we developed an SMS opt-out feature that allows users to easily unsubscribe from broadcast messages, solving the problem of unwanted communications. With Java Spring Boot and webhooks, our solution ensures smooth processing. and We added a clickable unsubscribe link in emails, giving users control over their subscription preferences. This project transformed our communication strategy, enhancing user satisfaction and compliance.",
+            "imgs": [
+                "assets/images/unsubscription/unsubscribe1.jpeg",
+                "assets/images/unsubscription/unsubscribe2.jpeg"
+            ],
+            "Technologies": [
+                "Java",
+                "Spring Boot",
+                "AWS Email Service",
+                "Angular",
+                "Kafka"
+            ]
+        },
+        {
+            "Title": " Travel Aggregator",
+            "Description": "We developed a web application that enables users to book and plan trips across various modes of transportation airways, roadways, and trains while managing their profiles and accommodation services. The platform offers weather forecasting for trips, quick hotel booking, and tracking of recent bookings, utilizing Java Spring for the backend and React for the frontend, with deployment on AWS.",
+            "imgs": [
+                "assets/images/travelaggregator/img.jpeg"
+            ],
+            "Technologies": [
+                "Java",
+                "Spring Boot",
+                "Microservices",
+                "React",
+                "SQL",
+                "AWS",
+                "Docker"
+            ]
+        },
+        {
+            "Title": "Facial Expression Recognition",
+            "Description": "In this project, we leveraged artificial intelligence to develop a convolutional neural network (CNN) model trained on the FER2013 dataset for recognizing facial expressions and mapping them to emojis. We tested the model using a webcam and video input, demonstrating its capability to identify facial expressions in real-time effectively, delivering accurate results.",
+            "imgs": [
+                "assets/images/fer/img.jpeg"
+            ],
+            "Technologies": [
+                "Python",
+                "Deep Learning",
+                "AI",
+                "OpenCV"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "More personal projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Bounced Emails Management",
+            "Description": "In a crucial project, I tackled the challenge of high bounce rates exceeding 8% during email broadcasts via AWS SNS, which led to service suspension. To resolve this, I developed an Automated Mail Parsing solution that interfaces with AWS SNS to identify and flag bounced emails, preventing resends to invalid addresses. This implementation effectively managed 80,000 bounced emails in production, ensuring stable email delivery and maintaining system integrity.",
+            "Technologies": [
+                "Java",
+                "Spring Boot",
+                "AWS SNS",
+                "Kafka"
+            ]
+        },
+        {
+            "Title": "CRYPTOMUSK",
+            "Description": "a real-time cryptocurrency price tracker that automates price monitoring through a Telegram bot. By utilizing the CoinMarketCap API to fetch live cryptocurrency prices and integrating the Telegram API, I successfully deployed the solution on the Heroku platform, enabling users to receive instant updates on cryptocurrency prices.",
+            "Technologies": [
+                "Python",
+                "Telgram",
+                "Coinmarketcap API"
+            ]
+        },
+        {
+            "Title": "AI Chatbot for Farmers",
+            "Description": "The AI Chatbot for Farmers project offers an innovative solution to address farmers' challenges, such as optimizing fertilizer use, enhancing crop sales, and recommending suitable crop varieties based on local conditions. Using RASA and Python, this chatbot provides farmers with timely information and guidance, ultimately aiming to improve their overall yield and efficiency in farming practices.",
+            "Technologies": [
+                "Python",
+                "RASA"
+            ]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I would be delighted to hear from you if you're interested in discussing new opportunities. Please feel free to contact me.",
+    "Contact.Btn": "Send Email",
+    "Contact.Phone": "8978023059"
+
+}
