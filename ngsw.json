@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1727976030794,
+  "timestamp": 1727976343882,
   "index": "https://jaganmohanreddyg.github.io/portfolio/index.html",
   "assetGroups": [
     {
@@ -58,7 +58,7 @@
         "https://jaganmohanreddyg.github.io/portfolio/SFMono-Semibold.849266397229adad.woff",
         "https://jaganmohanreddyg.github.io/portfolio/SFMono-SemiboldItalic.0ef5133ede504d56.woff2",
         "https://jaganmohanreddyg.github.io/portfolio/SFMono-SemiboldItalic.33cb8d6968ae9130.woff",
-        "https://jaganmohanreddyg.github.io/portfolio/assets/cv/JaganResume.pdf",
+        "https://jaganmohanreddyg.github.io/portfolio/assets/cv/jaganResume.pdf",
         "https://jaganmohanreddyg.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.ttf",
         "https://jaganmohanreddyg.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.woff",
         "https://jaganmohanreddyg.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.woff2",
@@ -165,7 +165,7 @@
     "https://jaganmohanreddyg.github.io/portfolio/SFMono-Semibold.849266397229adad.woff": "999e816498b39e99896d09cb18614e5bb700fa8e",
     "https://jaganmohanreddyg.github.io/portfolio/SFMono-SemiboldItalic.0ef5133ede504d56.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "https://jaganmohanreddyg.github.io/portfolio/SFMono-SemiboldItalic.33cb8d6968ae9130.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
-    "https://jaganmohanreddyg.github.io/portfolio/assets/cv/JaganResume.pdf": "3f036e5189abc69db99368a84f43711660927fe3",
+    "https://jaganmohanreddyg.github.io/portfolio/assets/cv/jaganResume.pdf": "3f036e5189abc69db99368a84f43711660927fe3",
     "https://jaganmohanreddyg.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.ttf": "8eccfc3783b04d13dec5887a15c3e00fd28bef7c",
     "https://jaganmohanreddyg.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.woff": "e3fbab74fa86b97c78ad1b1965b327fe5b2a1adb",
     "https://jaganmohanreddyg.github.io/portfolio/assets/fonts/Calibre/Calibre-Light.woff2": "70021b39a260c5f53d2ec5ba30f37163bbe0ef14",
