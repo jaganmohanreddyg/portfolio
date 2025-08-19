@@ -6,16 +6,28 @@
     "Header.cvBtn": "Resume",
     "Header.cvName": "jaganResume.pdf",
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have <span class='underline'>2.5+ years of experience</span> developing web applications, bots, and innovative technological solutions. I am dedicated to writing and refactoring clean, reusable and scalable code in <span class='underline'>Java and Angular </span> while ensuring good coding practices and development standards.",
+    "Banner.Description": "I have <span class='underline'>{{experience}}+ years of experience</span> developing web applications, bots, and innovative technological solutions. I am dedicated to writing and refactoring clean, reusable and scalable code in <span class='underline'>Java and Angular</span> while ensuring good coding practices and development standards.",
     "Banner.ActionBtn": "Get in touch",
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my <span class='underline'>2.5+ years as a Java Full Stack developer</span>, I seek to train every day. I have worked writing unit tests, performing continuous integration, primarily as a <span class='underline'>Backend developer</span> with <span class='underline'>Java Spring Boot, Elastic Search, Kibana, MySQL, PostgreSQL.</span>Specialized in developing high-performance APIs and leading POC initiatives while optimizing deployment processes with Docker for seamless integration between development and operations.",
+        "In my <span class='underline'>{{ experience }}+ years as a Java Full Stack developer</span>, I seek to train every day. I have worked writing unit tests, performing continuous integration, primarily as a <span class='underline'>Backend developer</span> with <span class='underline'>Java Spring Boot, Elastic Search, Kibana, MySQL, PostgreSQL.</span>Specialized in developing high-performance APIs and leading POC initiatives while optimizing deployment processes with Docker for seamless integration between development and operations.",
         "While backend is my strong suit, I have solid knowledge of <span class='underline'>Angular</span>. I have worked on developing <span class='underline'>responsive</span>, <span class='underline'>dynamic frontends</span>, and <span class='underline'>integrating</span> them with backend services.",
         "Some of the technologies that I have trained and worked on"
     ],
     "Experience.Title": "Experience",
     "Experience.Jobs": [
+            {
+            "Tab": "PS India",
+            "Title": "ASDE 2",
+            "Date": "Feb 2025 - Present",
+            "Description": [
+                "As a Software Developer at Publicis Sapient, worked on enterprise-grade applications leveraging Java Spring Boot for backend and React for frontend development.",
+                "Implemented a Micro-Frontend Authentication System with Spring Boot, Angular, Keycloak, and MySQL, supporting features like two-factor authentication, email verification, and responsive UIs, deployed with Docker, Kubernetes, and CI/CD pipelines.",
+                "Developed a Chatbot AI Assistant for Dove (Unilever) using Spring Boot, Node.js, Python Azure Functions, React, and ChatGPT integration.",
+                "Deployed scalable APIs on Azure and GCP, provisioned infrastructure with Terraform, and ensured observability using Azure Monitor."
+            ]
+        }
+        ,
         {
             "Tab": "W3 Global",
             "Title": "Java Full stack developer",
