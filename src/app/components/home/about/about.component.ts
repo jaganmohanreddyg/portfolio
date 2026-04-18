@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { ExperienceService } from 'src/app/services/experience/experience.service';
 
 @Component({
   selector: 'app-about',
@@ -10,18 +11,13 @@ export class AboutComponent implements OnInit {
 experienceYears: string = '';
 
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    private experienceService: ExperienceService
   ) { }
 
   ngOnInit(): void { 
-        this.experienceYears = this.calculateExperience(new Date("2022-06-01"));
+        this.experienceYears = this.experienceService.calculateExperience(new Date("2022-06-01"));
 
   }
   
-    calculateExperience(startDate: Date): string {
-    const now = new Date();
-    const diffInMs = now.getTime() - startDate.getTime();
-    const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25); // convert ms → years
-    return diffInYears.toFixed(1); // e.g., "2.5"
-  }
 }
