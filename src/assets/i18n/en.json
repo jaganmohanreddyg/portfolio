@@ -67,6 +67,26 @@
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [
         {
+        "Title": "Enterprise GenAI Chatbot",
+        "Description": "Developed a secure, enterprise-grade GenAI chatbot using RAG technology. The system features a scalable Java/Spring Boot backend with real-time WebSocket communication, an automated Pinecone embeddings pipeline for intelligent search, and a responsive, accessible React frontend.",
+        "imgs": [
+            "assets/images/genai-chatbot/chatbot1.png",
+            "assets/images/genai-chatbot/chatbot3.png",
+            "assets/images/genai-chatbot/chatbot2.png"
+        ],
+        "Technologies": [
+            "Java",
+            "Spring Boot",
+            "Spring AI",
+            "OpenAI",
+            "RAG",
+            "Embeddings",
+            "Vector Database (Pinecone)",
+            "WebSockets",
+            "React"
+        ]
+        },
+        {
             "Title": "Employee Timesheets Management",
             "Description": "For any Company After onboarding a candidate, effective timesheet management is crucial for seamless payroll processing. We have designed and implemented two end-to-end microservices to streamline this process using Java Spring boot and Angular.",
             "imgs": [
